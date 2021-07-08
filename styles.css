@@ -1,0 +1,40 @@
+html,
+body {
+    font: 20px 'PT Mono';
+    width: 100%;
+    min-width: 500px;
+    margin: 0;
+    padding: 0;
+
+    color: #fff;
+    background: #148F77;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 4px 3px 0 rgba(0, 0, 0, .65);
+
+    width: 70%;
+    margin-top: 3%;
+}
+
+table {
+    text-align: center;
+    justify-content: center;
+    background: #145A32;
+    margin: 0 5%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px 5px;
+    width: 25%;
+    border: 1px solid  #148F77;
+}
+tr:hover {
+    background:#148F77;
+}
+
+th {
+    pointer-events: none;
+}
